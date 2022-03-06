@@ -29,14 +29,14 @@ def lanuages_keyboard(_):
             callback_data=f"languages:en",
         ),
         InlineKeyboardButton(
-            text="🇮🇳 हिन्दी",
-            callback_data=f"languages:hi",
+            text="🇮🇳 ಕನ್ನಡ",
+            callback_data=f"languages:kn",
         ),
     )
     keyboard.row(
         InlineKeyboardButton(
-            text="🇱🇰 සිංහල",
-            callback_data=f"languages:si",
+            text="🇮🇳 हिन्दी",
+            callback_data=f"languages:hi",
         ),
         #InlineKeyboardButton(
         #    text="🇪🇸 Español",
